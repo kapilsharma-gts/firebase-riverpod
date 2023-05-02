@@ -1,0 +1,154 @@
+{
+  "project_info": {
+    "project_number": "529358759524",
+    "project_id": "whatapp-d999d",
+    "storage_bucket": "whatapp-d999d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529358759524:android:f4b1f31258055b7f9f2171",
+        "android_client_info": {
+          "package_name": "com.codexveer.whatsapp_clone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "529358759524-m2m619gjtn9r1sio27nlbcmctl2077v2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3unVkdsl9plkaBbytmM81FIWa-J4-qJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "529358759524-m2m619gjtn9r1sio27nlbcmctl2077v2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "529358759524-475to7s86jvqfbal5jtvpsea9n823j7i.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.codexveer.whatsappClone"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529358759524:android:c3bc4077dee7718e9f2171",
+        "android_client_info": {
+          "package_name": "com.example.whatsapp_ui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "529358759524-m2m619gjtn9r1sio27nlbcmctl2077v2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3unVkdsl9plkaBbytmM81FIWa-J4-qJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "529358759524-m2m619gjtn9r1sio27nlbcmctl2077v2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "529358759524-475to7s86jvqfbal5jtvpsea9n823j7i.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.codexveer.whatsappClone"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529358759524:android:0e5f1e7ca00cffd89f2171",
+        "android_client_info": {
+          "package_name": "com.shivkumar.authapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "529358759524-m2m619gjtn9r1sio27nlbcmctl2077v2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3unVkdsl9plkaBbytmM81FIWa-J4-qJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "529358759524-m2m619gjtn9r1sio27nlbcmctl2077v2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "529358759524-475to7s86jvqfbal5jtvpsea9n823j7i.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.codexveer.whatsappClone"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529358759524:android:f1feab8fc45cb6029f2171",
+        "android_client_info": {
+          "package_name": "com.whatsapp_clone.check"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "529358759524-m2m619gjtn9r1sio27nlbcmctl2077v2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3unVkdsl9plkaBbytmM81FIWa-J4-qJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "529358759524-m2m619gjtn9r1sio27nlbcmctl2077v2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "529358759524-475to7s86jvqfbal5jtvpsea9n823j7i.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.codexveer.whatsappClone"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
