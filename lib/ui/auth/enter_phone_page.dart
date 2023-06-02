@@ -4,7 +4,6 @@ import 'package:auth_app_1/ui/components/loading_layer.dart';
 import 'package:auth_app_1/ui/components/snackbar.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-
 import '../root.dart';
 
 class EnterPhonePage extends ConsumerWidget {
@@ -30,7 +29,6 @@ class EnterPhonePage extends ConsumerWidget {
               child: Consumer(builder: (context, ref, child) {
                 ref.watch(provider.select((value) => value.phone));
                 return MaterialButton(
-                  child: Text("Continue"),
                   padding: const EdgeInsets.all(16),
                   color: scheme.primaryContainer,
                   disabledColor: scheme.primaryContainer.withOpacity(0.5),
@@ -57,6 +55,7 @@ class EnterPhonePage extends ConsumerWidget {
                           );
                         }
                       : null,
+                  child: const Text("Continue"),
                 );
               }),
             ),

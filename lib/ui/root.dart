@@ -1,5 +1,4 @@
 import 'package:auth_app_1/ui/auth/enter_phone_page.dart';
-import 'package:auth_app_1/ui/auth/login_page.dart';
 import 'package:auth_app_1/ui/auth/providers/auth_view_model_provider.dart';
 import 'package:auth_app_1/ui/home/home_page.dart';
 import 'package:auth_app_1/ui/onboarding/onboarding_page.dart';
@@ -20,7 +19,7 @@ class Root extends ConsumerWidget {
     return !seen
         ? const OnboardingPage()
         : auth.user != null
-            ? const HomePage()
+            ? HomePage()
             : const EnterPhonePage();
   }
 }

@@ -1,5 +1,4 @@
 import 'package:auth_app_1/ui/items/providers/items_view_model_provider.dart';
-import 'package:auth_app_1/ui/items/providers/write_item_view_model_provider.dart';
 import 'package:auth_app_1/ui/items/widgets/item_card.dart';
 import 'package:flutter/material.dart';
 // ignore: depend_on_referenced_packages
@@ -9,11 +8,15 @@ import 'package:auth_app_1/ui/auth/providers/auth_view_model_provider.dart';
 import 'package:auth_app_1/ui/items/write_item_page.dart';
 import 'package:auth_app_1/ui/root.dart';
 
-class HomePage extends ConsumerWidget {
-  const HomePage({Key? key}) : super(key: key);
+import '../items/providers/write_item_view_model_provider.dart';
 
+class HomePage extends ConsumerWidget {
+  HomePage({Key? key}) : super(key: key);
+
+  GlobalKey<RefreshIndicatorState> refresh = GlobalKey<RefreshIndicatorState>();
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    print('is rebuild o not');
     final provider = itemsViewModelProvider;
     final model = ref.watch(provider);
     return Scaffold(
@@ -34,6 +37,8 @@ class HomePage extends ConsumerWidget {
         onPressed: () async {
           await Navigator.pushNamed(context, WriteItemPage.route);
           ref.read(writeItemViewModelProvider).clear();
+          refresh.currentState?.show();
+          ref.refresh(provider);
         },
         child: const Icon(Icons.add),
       ),
@@ -51,6 +56,7 @@ class HomePage extends ConsumerWidget {
                 return true;
               },
               child: RefreshIndicator(
+                key: refresh,
                 onRefresh: () async {
                   ref.refresh(provider);
                 },
